@@ -48,7 +48,7 @@ class App extends Component {
           </div>
         )}
 
-        <p>Temps écoulé depuis le montage : {mountTime} secondes</p>
+        <p className="timer">Temps écoulé depuis le montage : {mountTime} secondes</p>
       </div>
     );
   }
